@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cours HTML</title>
     <style>
         table{
             border: 1px solid black;
@@ -17,12 +17,15 @@
         <!-- ceci est un commentaire -->
         <h1>Titre niveau 1</h1>
         <h2>Ttite niveau 2</h2>
-        <h3>Titre niveu 3</h3>
+        <h3>Titre niveau 3</h3>
         <h4>Titre niveau 4</h4>
         <h5>Titre niveau 5</h5>
-        <h6>Titre niveu 6</h6>
+        <h6>Titre niveau 6</h6>
 
-        <p>un paragraphe</p>
+        <p>un paragrapheen HTML 5. Ici j'ai utlisé une balise strong pour afficher ce <strong>mot</strong> et j'ai mis une emphase sur <em>celui ci</em>
+        A ne pas confondre avec un mot en <i>italique</i>, strong permet de dire qu'un mot est important et em que le mot est à noter.
+        </p>
+
         <a href="#">Un lien hypertexte</a>
         <ul>
             <li>Un element de liste non-ordonné</li>
@@ -37,32 +40,35 @@
 
         <br><table>
             <thead>
-                <tr>
-                    <th colspan="3">Entête du tableau</th>
-                </tr>
+              <tr>
+                <th>Month</th>
+                <th>Savings</th>
+              </tr>
             </thead>
-                <tr>
-                <td>
-                    une case de tableau
-                </td>
-                <td>
-                    une case de tableau
-                </td>
-                <td>
-                    une case de tableau
-                </td>
-            </tr>
-                        <tr>
-                <td>
-                    une case de tableau
-                </td>
-                <td>
-                    une case de tableau
-                </td>
-                <td>
-                    une case de tableau
-                </td>
-            </tr>
-        </table>
+            <tbody>
+              <tr>
+                <td>January</td>
+                <td>$100</td>
+              </tr>
+              <tr>
+                <td>February</td>
+                <td>$80</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>Sum</th>
+                <th>$180</th>
+              </tr>
+            </tfoot>
+          </table>
+          
+          <h3>Les balises dl, dt, dd</h3>
+          <dl>
+            <dt>Coffee</dt>
+            <dd>Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>White cold drink</dd>
+          </dl>
     </body>
 </html>
