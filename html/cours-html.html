@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table{
+            border: 1px solid black;
+        }
+        th, tr, td{
+            border: 1px solid black;
+        }
+    </style>
 </head>
     <body>
         <!-- ceci est un commentaire -->
@@ -25,11 +33,18 @@
             <li>Un element de liste ordonné</li>
         </ol>
         <!-- Pour passer a la ligne, on utilise la balise <br>-->
-        <img src="#" alt="Texte qui remplace l'image du cours">
+        <img src="#" alt="Texte qui remplace l'image du cours"><br>
 
-        <table>
-            <th></th>
-            <tr>
+        <br><table>
+            <thead>
+                <tr>
+                    <th colspan="3">Entête du tableau</th>
+                </tr>
+            </thead>
+                <tr>
+                <td>
+                    une case de tableau
+                </td>
                 <td>
                     une case de tableau
                 </td>
@@ -37,7 +52,10 @@
                     une case de tableau
                 </td>
             </tr>
-            <tr>
+                        <tr>
+                <td>
+                    une case de tableau
+                </td>
                 <td>
                     une case de tableau
                 </td>
